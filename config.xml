@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<widget xmlns = "http://www.w3.org/ns/widgets"
 		xmlns:gap = "http://phonegap.com/ns/1.0"
-		id        = "com.joelnagy.phonegap-tutorial"
+		id        = "com.joelnagy.phonegap-base"
 		versionCode="1"
 		version   = "1.0.1">
-		<name>Employee Directory</name>
-		<description>A simple employee directory application</description>
+		<name>Phonegap Base</name>
+		<description>A simple phonegap base app</description>
 		<author href="http://joelnagy.com" email="joelnagy@gmail.com">Joel Nagy</author>
 		<preference name="phonegap-version" value="2.3.0" />
 		<preference name="orientation" value="portrait" />
