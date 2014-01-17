@@ -4,17 +4,20 @@
 		id        = "com.joelnagy.phonegap-base"
 		versionCode="1"
 		version   = "1.0.1">
+
+		<gap:platform name="android" />
+
 		<name>Phonegap Base</name>
 		<description>A simple phonegap base app</description>
 		<author href="http://joelnagy.com" email="joelnagy@gmail.com">Joel Nagy</author>
-		<preference name="phonegap-version" value="2.9.0" />
+
 		<preference name="orientation" value="portrait" />
 		<preference name="target-device" value="universal" />
 		<preference name="fullscreen" value="true" />
 		<preference name="webviewbounce" value="false" />
 		<preference name="prerendered-icon" value="false" />
 		<preference name="stay-in-webview" value="true" />
-		<preference name="ios-statusbarstyle" value="black-transparent" />
+		<preference name="ios-statusbarstyle" value="black-opaque" />
 		<preference name="detect-data-types" value="true" />
 		<preference name="exit-on-suspend" value="false" />
 		<preference name="show-splash-screen-spinner" value="true" />
@@ -24,6 +27,7 @@
 		<preference name="android-maxSdkVersion" value="0" />
 		<preference name="android-installLocation" value="null" />
 		<preference name="splash-screen-duration" value="3000" />
+		<preference name="disable-cursor" value="true" />
 		<preference name="load-url-timeout" value="9000" />
 		<!-- feature name="http://api.phonegap.com/1.0/camera" / -->
 		<!-- feature name="http://api.phonegap.com/1.0/contacts" / -->
