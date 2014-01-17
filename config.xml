@@ -7,7 +7,7 @@
 		<name>Phonegap Base</name>
 		<description>A simple phonegap base app</description>
 		<author href="http://joelnagy.com" email="joelnagy@gmail.com">Joel Nagy</author>
-		<preference name="phonegap-version" value="2.3.0" />
+		<preference name="phonegap-version" value="2.9.0" />
 		<preference name="orientation" value="portrait" />
 		<preference name="target-device" value="universal" />
 		<preference name="fullscreen" value="true" />
